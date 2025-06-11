@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "654956362107",
+    "project_id": "water-electricity-tracki-4ed88",
+    "storage_bucket": "water-electricity-tracki-4ed88.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:654956362107:android:4bcc73efe41090e480e5de",
+        "android_client_info": {
+          "package_name": "com.example.trackinggapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2urpbfxq36Hl8a9273zlJ8ByhrioF1Yg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
