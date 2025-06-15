@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Permissions for Notifications & Internet -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.TrackingApp">
+        <activity
+            android:name=".UserDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Login_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".temperatureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".occupancyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".fragment_image_preview"
+            android:exported="false" />
+        <activity
+            android:name=".Nudges_Page_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Nudges_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".About_Us_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Feedback_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_Us_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_Screen"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:requestLegacyExternalStorage="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" /> <!-- LoginActivity as the first screen -->
+        <!-- Signup Activity -->
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" /> <!-- Home & Other Activities -->
+        <activity
+            android:name=".HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NudgesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".StatisticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoalActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UsageActivity"
+            android:exported="false" /> <!-- Notification Receiver -->
+        <receiver
+            android:name=".NotificationReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.example.trackingapp.NOTIFICATION_CLICK" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>
