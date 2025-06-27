@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <!-- Welcome Text -->
+
+    <!-- Track Usage Button -->
+
+    <!-- Set Goals Button -->
+
+    <!-- View Statistics Button -->
+
+    <!-- Nudges Button -->
+
+    <!-- Logout Button -->
+    <!-- Background Image -->
+
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lightning_and_water"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/welcomeText"
+        android:layout_width="301dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="48dp"
+        android:text="  Welcome, User!!"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.581"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnTrackUsage"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="44dp"
+        android:text="Track Usage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/welcomeText" />
+
+    <Button
+        android:id="@+id/btnSetGoals"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:text="Set Goals"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnTrackUsage" />
+
+    <Button
+        android:id="@+id/btnDailyUsage"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:text="Daily Usage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNudges" />
+
+    <Button
+        android:id="@+id/btnViewStatistics"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:text="View Statistics"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnSetGoals" />
+
+    <Button
+        android:id="@+id/btnNudges"
+        android:layout_width="361dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="12dp"
+        android:text="Nudges"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnViewStatistics" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="200dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="188dp"
+        android:backgroundTint="@android:color/black"
+        android:text="Logout"
+        android:textColor="@android:color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnNudges" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
