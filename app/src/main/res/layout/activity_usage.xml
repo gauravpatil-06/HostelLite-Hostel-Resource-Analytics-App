@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UsageActivity"
+    android:padding="0dp">
+
+    <!-- Water Usage EditText -->
+
+    <!-- Electricity Usage EditText -->
+
+    <!-- Submit Button (Ensured correct ID) -->
+
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/lightning_and_water"
+        tools:layout_editor_absoluteX="87dp"
+        tools:layout_editor_absoluteY="-56dp" />
+
+    <EditText
+        android:id="@+id/etWaterUsage"
+        android:layout_width="421dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="48dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter Water Usage (Liters)"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etElectricityUsage"
+        android:layout_width="413dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:drawable/edit_text"
+        android:hint="Enter Electricity Usage (kWh)"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etWaterUsage" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="92dp"
+        android:backgroundTint="@color/purple_500"
+        android:padding="12dp"
+        android:text="Submit Usage"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etElectricityUsage" />
+</androidx.constraintlayout.widget.ConstraintLayout>
