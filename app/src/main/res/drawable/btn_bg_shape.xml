@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--&lt;!&ndash;    for single color&ndash;&gt;-->
+<!--    <solid-->
+<!--        android:color="@color/red_dark"/>-->
+
+<!--    for multiple color-->
+    <gradient
+        android:startColor="#7B1FA2"
+        android:endColor="#7B1FA2"
+        android:angle="135"/>
+
+    <corners
+        android:radius="10dp"/>
+
+</shape>

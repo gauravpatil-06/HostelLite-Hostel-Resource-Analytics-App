@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+
+<!--&lt;!&ndash;    for single color&ndash;&gt;-->
+<!--    <solid-->
+<!--        android:color="@color/red_dark"/>-->
+
+<!--    for multiple color-->
+    <stroke
+        android:color="#7B1FA2"
+        android:width="1dp"/>
+
+    <corners
+        android:radius="15dp"/>
+</shape>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menuBottomNavHome"
+        android:title="Home"
+        android:icon="@drawable/icon_home" />
+
+    <item
+        android:id="@+id/menuBottomNavElectricityUsage"
+        android:title="Electricity Usage"
+        android:icon="@drawable/electricity_usage" />
+
+    <item
+        android:id="@+id/menuBottomNavWaterUsage"
+        android:title="Water Usage"
+        android:icon="@drawable/icon_water_usage" />
+
+    <item
+        android:id="@+id/menuBottomNavProfile"
+        android:title="Profile"
+        android:icon="@drawable/icon_profile" />
+</menu>

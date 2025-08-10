@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_occupancy"
+            android:title="Hostel Occupancy"
+            android:icon="@drawable/ic_nav_occupancy" />
+
+        <item
+            android:id="@+id/nav_temperature"
+            android:title="Weather Data"
+            android:icon="@drawable/ic_nav_temperature" />
+
+        <item
+            android:id="@+id/nav_nudges"
+            android:title="Nudges"
+            android:icon="@drawable/icon_nodge" />
+
+        <item
+            android:id="@+id/nav_contact"
+            android:title="Contact Us"
+            android:icon="@android:drawable/ic_menu_call" />
+
+        <item
+            android:id="@+id/nav_about_us"
+            android:title="About Us"
+            android:icon="@android:drawable/ic_menu_info_details" />
+
+        <item
+            android:id="@+id/nav_feedback"
+            android:title="Send Feedback"
+            android:icon="@android:drawable/ic_menu_send" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:title="Sign Out"
+            android:icon="@android:drawable/ic_lock_power_off" />
+
+    </group>
+
+</menu>
